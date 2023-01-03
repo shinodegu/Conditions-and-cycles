@@ -10,7 +10,7 @@ while True:
     elif int(age) >0 and int(age) <10:
      print('Привет, шкет ' + name)
 
-    elif int(age) >10 and int(age) <=18 :
+    elif int(age) >=10 and int(age) <=18 :
      print('Как жизнь ' + name)
 
     elif int(age) >18 and int(age) <100:
